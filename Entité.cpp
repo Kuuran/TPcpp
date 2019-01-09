@@ -8,7 +8,10 @@ Entité::Entité() :
 
 }
 
-
+Entité::Entité(std::string nom, std::string camp) {
+    Entité::nom = nom;
+    Entité::camp = camp;
+}
 
 std::string Entité::getCamps()
 {

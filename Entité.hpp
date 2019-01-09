@@ -14,6 +14,7 @@ public:
 
 	
 	Entité();
+	Entité(std::string nom, std::string camp);
     std::string getCamps();
 
 	int getVie();
