@@ -1,19 +1,16 @@
 #include "Entité.hpp"
-#include<string>
-
-using namespace std;
  
 Entité::Entité() :
 {
-    string nom;
-    int camp;
-    int vie=100;
+    nom = "";
+    camp = "";
+    vie=100;
 
 }
 
 
 
-string Entité::getCamps()
+std::string Entité::getCamps()
 {
 return camp;
 }
@@ -25,12 +22,12 @@ return vie;
 }
 
 
-string Entité::getNom()
+std::string Entité::getNom()
 {
 return nom;
 }
 
-void Entité::setCamps(string val )
+void Entité::setCamps(std::string val )
 {
 camp=val;
 }
@@ -40,7 +37,7 @@ void Entité::setVie (int tmpvie)
 vie=tmpvie;
 }
 
-void Entité::setNom (string name )
+void Entité::setNom (std::string name )
 {
 nom=name;
 }
