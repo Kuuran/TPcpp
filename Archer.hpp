@@ -1,7 +1,7 @@
 #include <iostream>
-#include "Unité.hpp"
+#include "Unite.hpp"
 
-class Archer : public Unité 
+class Archer : public Unite
 {
 	
 public:

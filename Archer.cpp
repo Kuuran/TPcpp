@@ -3,7 +3,7 @@
  
 using namespace std;
  
-Archer::Archer() : Unité()
+Archer::Archer() : Unite()
 {
     prix = 12;
     vie =8;

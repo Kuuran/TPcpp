@@ -1,11 +1,11 @@
-#include "Unité.hpp"
+#include "Unite.hpp"
 #include<string>
 
 using namespace std;
  
 
 /*
-bool Unité::avancer ()  // une pour chaque camp ?
+bool Unite::avancer ()  // une pour chaque camp ?
 {
 
 for (int p=position; p<11; p++){
@@ -21,7 +21,7 @@ else return false;
    
 }
 
-int Unité::attaquer(//liste d'entier ?)
+int Unite::attaquer(//liste d'entier ?)
 {
 //Archer et catapulte attaquent TJRS unité la plus proche d'eux ! 
 }*/

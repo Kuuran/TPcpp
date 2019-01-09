@@ -1,7 +1,7 @@
 #include <iostream>
-#include "Unité.hpp"
+#include "Unite.hpp"
 
-class Fantassin : public Unité
+class Fantassin : public Unite
 	
 public:
 

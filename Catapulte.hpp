@@ -1,7 +1,7 @@
 #include <iostream>
-#include "Unité.hpp"
+#include "Unite.hpp"
 
-class Catapulte : public Unité 
+class Catapulte : public Unite
 {
 	
 public:

@@ -1,7 +1,7 @@
 #include <iostream>
-#include "Entité.hpp"
+#include "Entite.hpp"
 
-class Joueur : public Entité 
+class Joueur : public Entite
 {
 	
 	

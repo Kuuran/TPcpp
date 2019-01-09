@@ -2,7 +2,7 @@
 #include <string>
 
 
-class Entité 
+class Entite
 {
 protected:
 	std::string nom;
@@ -13,8 +13,8 @@ protected:
 public:
 
 	
-	Entité();
-	Entité(std::string nom, std::string camp);
+	Entite();
+	Entite(std::string nom, std::string camp);
     std::string getCamps();
 
 	int getVie();

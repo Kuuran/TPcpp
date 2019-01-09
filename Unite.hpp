@@ -1,7 +1,7 @@
 #include <iostream>
-#include "Entité.hpp"
+#include "Entite.hpp"
 
-class Unité : public Entité 
+class Unite : public Entite
 {
 	
 public:
