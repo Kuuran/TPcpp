@@ -1,5 +1,4 @@
 #include "Unité.hpp"
-#include "Entité.hpp"
 #include<string>
 
 using namespace std;

@@ -1,5 +1,4 @@
 #include "Fantassin.hpp"
-#include "Unité.hpp"
 #include<string>
 using namespace std;
  
