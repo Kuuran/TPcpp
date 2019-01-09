@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.13)
+project(untitled)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(untitled main.cpp Affichage.cpp Archer.cpp Catapulte.cpp Entité.cpp Fantassin.cpp Unité.cpp Affichage.cpp IA.cpp Jeu.cpp Joueur.cpp Plateau.cpp)
