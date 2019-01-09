@@ -10,34 +10,34 @@ Entité::Entité() :
 
 
 
-string Entité::getCamps(Entité e)
+string Entité::getCamps()
 {
-return e.camps;
+return camp;
 }
 
 
-string Entité::getVie(Entité e)
+int Entité::getVie()
 {
-return e.vie;
+return vie;
 }
 
 
-string Entité::getNom(Entité e)
+string Entité::getNom()
 {
-return e.nom;
+return nom;
 }
 
-void Entité::setCamps(Entité e , string val ) 
+void Entité::setCamps(string val )
 {
-e.camps=val;
+camp=val;
 }
 
-void Entité::setVie (Entité e ) 
+void Entité::setVie (int tmpvie)
 {
-e.vie=100;
+vie=tmpvie;
 }
 
-void Entité::setNom (Entité e , string name ) 
+void Entité::setNom (string name )
 {
-e.camps=name;
+nom=name;
 }

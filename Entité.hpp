@@ -1,21 +1,24 @@
 #include <iostream>
 
+
 class Entité 
 {
-	string nom;
+protected:
+	std::string nom;
 	int vie;
-	string camp;
+	std::string camp;
 
 	
 public:
 
-Entité ();
-    string Entité::getCamps(Entité e);
-    string Entité::getVie(Entité e);
-    string Entité::getNom(Entité e);
-    void Entité::setCamps(Entité e , string val);
-    void Entité::setVie (Entité e);
-    void Entité::setNom (Entité e , string name);
+    std::string getCamps();
+
+	int getVie();
+    std::string getNom();
+    void setCamps(std::string val);
+    void setVie (int tmpvie);
+    void setNom (std::string name);
+    virtual void perdreVie(int vie) =0;
 
 
 

@@ -4,15 +4,8 @@
  
 using namespace std;
  
-Archer::Archer() : prix(12),vie(8),attaque(3),porteeMin(1),porteeMax(3)
-
+Archer::Archer() : Unité()
 {
 
  
 }
- 
-void Archer::recevoirDegats(int )//dans unit
-{
-    
-}
-

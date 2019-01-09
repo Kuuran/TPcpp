@@ -1,15 +1,11 @@
 #include <iostream>
+#include "Unité.hpp"
 
-class Fantassin : public Unité 
-{
-	int prix=10;
-	int vie=10;
-	int attaque=4;
-	int porteeMin=1;
-	int porteeMax=1;
-	static int id;
+class Fantassin : public Unité
 	
 public:
+
+	Fantassin();
 
 //meths
 
