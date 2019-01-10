@@ -5,7 +5,10 @@ using namespace std;
  
 Entité::Entité() :
 {
- 
+    string nom;
+    int camp;
+    int vie=100;
+
 }
 
 
