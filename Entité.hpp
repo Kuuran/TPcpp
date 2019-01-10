@@ -11,6 +11,8 @@ protected:
 	
 public:
 
+	
+	Entité();
     std::string getCamps();
 
 	int getVie();
