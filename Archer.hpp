@@ -1,4 +1,3 @@
-#include <iostream>
 #include "Unite.hpp"
 
 class Archer : public Unite
@@ -7,7 +6,7 @@ class Archer : public Unite
 public:
 
 	Archer();
-	
+	bool perdreVie(int vie);
 
 //meths
 

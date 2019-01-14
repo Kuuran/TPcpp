@@ -22,7 +22,8 @@ public:
     void setCamps(std::string val);
     void setVie (int tmpvie);
     void setNom (std::string name);
-    virtual void perdreVie(int vie) =0;
+    virtual bool perdreVie(int vie) =0;
+    bool estMorte();
 
 
 
