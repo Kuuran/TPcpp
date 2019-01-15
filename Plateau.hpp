@@ -17,6 +17,7 @@ public:
     bool placer(Entite e, unsigned long pos);
 
     void retirer(unsigned long pos);
+    bool isEmpty(unsigned long pos);
 
 
 
