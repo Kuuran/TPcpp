@@ -7,19 +7,19 @@ class Entite
 protected:
 	std::string nom;
 	int vie;
-	std::string camp;
+	int camp;
 
 	
 public:
 
 	
 	Entite();
-	Entite(std::string nom, std::string camp);
-    std::string getCamps();
+	Entite(std::string nom, int camp);
+    int getCamps();
 
 	int getVie();
     std::string getNom();
-    void setCamps(std::string val);
+    void setCamps(int val);
     void setVie (int tmpvie);
     void setNom (std::string name);
     virtual bool perdreVie(int vie) =0;

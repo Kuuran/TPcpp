@@ -2,16 +2,16 @@
  
 Entite::Entite(){
     nom = "";
-    camp = "";
+    camp = 0;
     vie=100;
 }
 
-Entite::Entite(std::string nom, std::string camp) {
+Entite::Entite(std::string nom, int camp) {
     Entite::nom = nom;
     Entite::camp = camp;
 }
 
-std::string Entite::getCamps(){
+int Entite::getCamps(){
 return camp;
 }
 
@@ -23,7 +23,7 @@ std::string Entite::getNom(){
 return nom;
 }
 
-void Entite::setCamps(std::string val ){
+void Entite::setCamps (int val ){
 camp=val;
 }
 

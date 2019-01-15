@@ -8,13 +8,15 @@ class Plateau
 {
 private:
     int taille;
-    std::vector<Entite> plateau;  //todo faudrait faire un vector ou un plateau de taille statique
+    std::vector<Entite*> plateau;
 
 public:
     Plateau();
     Plateau(int taille);
 
-//meths
+    bool placer(Entite e, unsigned long pos);
+
+    void retirer(unsigned long pos);
 
 
 

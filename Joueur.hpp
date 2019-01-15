@@ -7,7 +7,7 @@ class Joueur : public Entite
 	
 public:
 
-//meths
+    bool perdreVie(int vie);
 
 
 
