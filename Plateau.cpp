@@ -12,10 +12,12 @@ Plateau::Plateau(int taille) : taille(taille) {
     }
 }
 
+Plateau::~Plateau() = default;
+
 //return true si il a réussi a placer l'entité sur le plateau
-bool Plateau::placer(Entite e, unsigned long pos){
+bool Plateau::placer(Entite* e, unsigned long pos){
     if (this->isEmpty(pos)) {
-        plateau.at(pos) = &e;
+        plateau.at(pos) = e;
         return true;
     }
     return false;
@@ -31,4 +33,5 @@ bool Plateau::isEmpty(unsigned long pos){
     if(pos<taille){
         return plateau.at(pos) == nullptr;
     }
+    return false;
 }

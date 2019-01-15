@@ -12,9 +12,11 @@ private:
 
 public:
     Plateau();
-    Plateau(int taille);
 
-    bool placer(Entite e, unsigned long pos);
+    explicit Plateau(int taille);
+    ~Plateau();
+
+    bool placer(Entite* e, unsigned long pos);
 
     void retirer(unsigned long pos);
     bool isEmpty(unsigned long pos);
