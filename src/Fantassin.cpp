@@ -1,4 +1,4 @@
-#include "project/Fantassin.hpp"
+#include "../include/project/Fantassin.hpp"
 #include<string>
 using namespace std;
  

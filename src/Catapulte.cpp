@@ -1,4 +1,4 @@
-#include "project/Catapulte.hpp"
+#include "../include/project/Catapulte.hpp"
 #include<string>
  
 using namespace std;
