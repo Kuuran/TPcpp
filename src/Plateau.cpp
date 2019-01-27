@@ -1,4 +1,4 @@
-#include "Plateau.hpp"
+#include "project/Plateau.hpp"
 
 Plateau::Plateau() : taille(11) {
     for (int i = 0; i<taille; i++){

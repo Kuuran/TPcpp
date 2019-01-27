@@ -1,4 +1,4 @@
-#include "Joueur.hpp"
+#include "project/Joueur.hpp"
 
 Joueur::Joueur() : Entite() {}
 Joueur::Joueur(std::string nom, int camp) : Entite(nom, camp){}

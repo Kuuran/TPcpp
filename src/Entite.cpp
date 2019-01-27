@@ -1,4 +1,4 @@
-#include "Entite.hpp"
+#include "project/Entite.hpp"
  
 Entite::Entite(){
     nom = "";
