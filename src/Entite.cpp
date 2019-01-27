@@ -43,6 +43,3 @@ bool Entite::estMorte() {
     return vie <= 0;
 }
 
-bool Entite::estMorte() {
-    return vie <= 0;
-}
