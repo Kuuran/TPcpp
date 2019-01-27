@@ -31,8 +31,16 @@ void Entite::setVie (int tmpvie){
 vie=tmpvie;
 }
 
+void Entite::changerVie (int ptsVies){
+vie=vie-ptsVies;
+}
+
 void Entite::setNom (std::string name ){
 nom=name;
+}
+
+bool Entite::estMorte() {
+    return vie <= 0;
 }
 
 bool Entite::estMorte() {
