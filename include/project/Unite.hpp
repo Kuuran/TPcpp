@@ -1,34 +1,42 @@
-#ifndef UNITE_HPP
-#define UNITE_HPP
+#include "project/Unite.hpp"
+#include <iostream>
 
-#include "Entite.hpp"
+Unite::Unite() {
 
-class Unite : public Entite
-{
-	
-public:
-	Unite();
- 	virtual ~Unite();
-	virtual bool avancer() =0;
-	virtual int attaquer () =0;
-	int getAttaque ();
-	int getPosition ();
-	void setPosition (int pos);
-	int getPorteeMin();
-	int getPorteeMax();
-	void setStatut ();
-	bool getStatut();
+if(camp==1) position = 0;
+if(camp==2) position = 11;
 
-protected:
+action=false;
 
-	int prix;
-	int porteeMin;
-	int porteeMax;
-	static int id;
-	int attaque;
-	int position;
-	bool statut;
+}
 
-};
+int Unite::getAttaque (){
 
-#endif
+	return attaque;
+}
+
+int Unite::getPosition () {
+	return position;
+}
+
+
+int Unite::getPorteeMin() {
+	return porteeMin;
+
+}
+
+int Unite::getPorteeMax() {
+	return porteeMax;
+}
+void Unite::setStatut (){
+	statut=false;
+}
+
+bool Unite:: getStatut(){
+	return statut; 
+}
+
+void Unite:: setPosition (int pos){
+	position=pos;
+}
+
