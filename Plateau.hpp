@@ -1,3 +1,6 @@
+#ifndef PLATEAU_HPP
+#define PLATEAU_HPP
+
 #include <iostream>
 #include <vector>
 #include "Entite.hpp"
@@ -24,3 +27,5 @@ public:
 
 
 };
+
+#endif

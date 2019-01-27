@@ -1,3 +1,6 @@
+#ifndef JEU_HPP
+#define JEU_HPP
+
 #include <iostream>
 #include "Plateau.hpp"
 #include "Joueur.hpp"
@@ -15,3 +18,5 @@ public:
 
 
 };
+
+#endif

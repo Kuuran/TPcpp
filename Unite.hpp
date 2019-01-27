@@ -1,3 +1,6 @@
+#ifndef UNITE_HPP
+#define UNITE_HPP
+
 #include "Entite.hpp"
 
 class Unite : public Entite
@@ -18,3 +21,5 @@ protected:
 
 
 };
+
+#endif

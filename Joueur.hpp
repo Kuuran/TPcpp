@@ -1,3 +1,6 @@
+#ifndef JOUEUR_HPP
+#define JOUEUR_HPP
+
 #include <iostream>
 #include "Entite.hpp"
 
@@ -13,3 +16,5 @@ public:
 
 
 };
+
+#endif

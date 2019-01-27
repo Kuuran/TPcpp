@@ -1,3 +1,6 @@
+#ifndef IA_HPP
+#define IA_HPP
+
 #include <iostream>
 #include "Joueur.hpp"
 
@@ -12,3 +15,5 @@ public:
 
 
 };
+
+#endif

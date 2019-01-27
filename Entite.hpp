@@ -1,3 +1,6 @@
+#ifndef ENTITE_HPP
+#define ENTITE_HPP
+
 #include <iostream>
 #include <string>
 
@@ -28,3 +31,5 @@ public:
 
 
 };
+
+#endif
