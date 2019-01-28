@@ -6,12 +6,15 @@
 
 class Fantassin : public Unite
 {
+private:
+	bool superSoldat;
+
 public:
+    explicit Fantassin(int camp);
+	~Fantassin();
 
-	Fantassin();
-
-//meths
-
+	bool estSuperSoldat();
+	bool perdreVie(int vie) override;
 
 
 };

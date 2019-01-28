@@ -18,14 +18,16 @@ public:
 	
 	Entite();
 	Entite(std::string nom, int camp);
+	~Entite();
+
 	int getCamps();
 	int getVie();
 	std::string getNom();
-    	void setCamps(int val);
+	void setCamps(int val);
    	void setVie (int tmpvie);
-    	void setNom (std::string name);
-    	virtual bool perdreVie(int vie) =0;
-    	bool estMorte();
+    void setNom (std::string name);
+    virtual bool perdreVie(int vie) =0;
+    bool estMorte();
 
 
 

@@ -9,7 +9,8 @@ class Catapulte : public Unite
 	
 public:
 
-	Catapulte();
+    explicit Catapulte(int camp);
+	bool perdreVie(int vie) override;
 
 //meths
 

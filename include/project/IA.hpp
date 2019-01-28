@@ -10,7 +10,9 @@ class IA : public Joueur
 	
 public:
 
-//meths
+    IA();
+    IA(std::string nom, int camp);
+    ~IA();
 
 
 

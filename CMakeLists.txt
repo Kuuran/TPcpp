@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled main.cpp Affichage.cpp Archer.cpp Catapulte.cpp Entite.cpp Fantassin.cpp Unite.cpp Affichage.cpp IA.cpp Jeu.cpp Joueur.cpp Plateau.cpp)
+add_executable(untitled src/main.cpp src/Affichage.cpp src/Archer.cpp src/Catapulte.cpp src/Entite.cpp src/Fantassin.cpp src/Unite.cpp src/Affichage.cpp src/IA.cpp src/Jeu.cpp src/Joueur.cpp src/Plateau.cpp)

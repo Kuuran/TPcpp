@@ -8,13 +8,8 @@ class Archer : public Unite
 	
 public:
 
-	Archer();
-	bool perdreVie(int vie);
-
-//meths
-
-
-
+    explicit Archer(int camp);
+	bool perdreVie(int vie) override;
 };
 
 #endif

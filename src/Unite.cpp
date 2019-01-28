@@ -1,14 +1,14 @@
-#include "project/Unite.hpp"
-#include <iostream>
+#include <utility>
 
-Unite::Unite() {
+#include "../include/project/Unite.hpp"
 
+
+Unite::Unite(std::string nom, int camp) : Entite(std::move(nom), camp){
 if(camp==1) position = 0;
 if(camp==2) position = 11;
-
-action=false;
-
 }
+
+Unite::~Unite() = default;
 
 int Unite::getAttaque (){
 

@@ -1,6 +1,6 @@
 #include "../include/project/Archer.hpp"
 
-Archer::Archer() : Unite(){
+Archer::Archer(int camp) : Unite("Archer", camp){
     prix = 12;
     vie =8;
     attaque = 3;

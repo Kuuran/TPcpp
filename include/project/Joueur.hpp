@@ -11,7 +11,7 @@ class Joueur : public Entite
 public:
     Joueur();
     Joueur(std::string nom, int camp);
-    bool perdreVie(int vie);
+    bool perdreVie(int vie) override;
 
 
 
