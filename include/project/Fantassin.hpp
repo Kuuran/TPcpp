@@ -16,6 +16,12 @@ public:
 	bool estSuperSoldat();
 	bool perdreVie(int vie) override;
 
+    bool avancer(Plateau p) override;
+    int attaquer (Plateau p) override;
+    int action1(Plateau p) override;
+    int action2 (Plateau p) override;
+    int action3(Plateau p) override;
+
 
 };
 

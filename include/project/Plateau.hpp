@@ -1,11 +1,11 @@
 #ifndef PLATEAU_HPP
 #define PLATEAU_HPP
 
+
+#include "Unite.hpp"
 #include <iostream>
 #include <vector>
 #include "Entite.hpp"
-
-#define TAILLE 11
 
 class Plateau 
 {
@@ -19,10 +19,11 @@ public:
     explicit Plateau(int taille);
     ~Plateau();
 
-    bool placer(Entite* e, unsigned long pos);
+    bool placer(Unite* u, unsigned long pos);
 
     void retirer(unsigned long pos);
     bool isEmpty(unsigned long pos);
+    int getCampPos(unsigned long pos);
 
 
 

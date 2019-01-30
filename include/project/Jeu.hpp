@@ -4,6 +4,7 @@
 #include <iostream>
 #include "Plateau.hpp"
 #include "Joueur.hpp"
+#include "Fantassin.hpp"
 
 class Jeu 
 {

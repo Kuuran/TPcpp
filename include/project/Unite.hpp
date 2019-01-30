@@ -2,6 +2,7 @@
 #define UNITE_HPP
 
 #include "Entite.hpp"
+#include "Plateau.hpp"
 
 class Unite : public Entite
 {
@@ -9,11 +10,11 @@ class Unite : public Entite
 public:
     explicit Unite(std::string nom, int camp);
  	virtual ~Unite();
-	virtual bool avancer() =0;
-	virtual int attaquer () =0;
-	virtual bool action1() =0;
-	virtual bool action2 () =0;
-	virtual bool action3() =0;
+	virtual bool avancer(Plateau p) =0;
+	virtual int attaquer (Plateau p) =0;
+	virtual int action1(Plateau p) =0;
+	virtual int action2 (Plateau p) =0;
+	virtual int action3(Plateau p) =0;
 	int getAttaque ();
 	int getPosition ();
 	void setPosition (int pos);

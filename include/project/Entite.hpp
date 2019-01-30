@@ -9,8 +9,8 @@ class Entite
 {
 protected:
 	std::string nom;
-	int vie;
 	int camp;
+    int vie;
 
 	
 public:

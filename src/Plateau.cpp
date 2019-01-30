@@ -15,23 +15,31 @@ Plateau::Plateau(int taille) : taille(taille) {
 Plateau::~Plateau() = default;
 
 //return true si il a réussi a placer l'entité sur le plateau
-bool Plateau::placer(Entite* e, unsigned long pos){
+bool Plateau::placer(Unite* e, unsigned long pos){
     if (this->isEmpty(pos)) {
         plateau.at(pos) = e;
+        e->setPosition((int)pos);
         return true;
     }
     return false;
 }
 
 void Plateau::retirer(unsigned long pos){
-    if(pos<taille) {
+    if((int)pos<taille) {
         plateau.at(pos) = nullptr;
     }
 }
 
 bool Plateau::isEmpty(unsigned long pos){
-    if(pos<taille){
+    if((int)pos<taille){
         return plateau.at(pos) == nullptr;
     }
     return false;
+}
+
+int Plateau::getCampPos(unsigned long pos) {
+    if(!this->isEmpty(pos)){
+        return this->plateau.at(pos)->getCamps();
+    }
+    return 0;
 }
